@@ -1,0 +1,38 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #007BFF; // Blue background
+  color: #FFD700; // Yellow text
+  margin: auto; // Center the button
+
+  &__select {
+    color: #FFD700; // Yellow text
+    font-family: Poppins;
+    padding: 1rem;
+    border: none;
+    background-color: #007BFF; // Blue background
+    width: 150px;
+    cursor: pointer;
+    margin: auto; // Center the select button
+  }
+}
+.button--primary {
+  background-color: #00008B; // Dark blue
+  color: #FFFFE0; // Light yellow
+}
+
+.button--secondary {
+  background-color: #ADD8E6; // Light blue
+  color: #DAA520; // Dark yellow
+}
